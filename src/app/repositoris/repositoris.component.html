@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="card" *ngFor="let repo of  userRepose ">
+        <h3 class="card-title">{{repo.name}}</h3>
+        <div class="card-body">
+            <p>{{repo.description}}</p>
+        </div>
+        <div class="crd-footer d-flex justify-content-between">
+         <p>{{repo.created_at|date}}</p>  
+         <p>{{repo.forks}}</p> 
+
+        </div>
+    
+    </div>
+</div>
