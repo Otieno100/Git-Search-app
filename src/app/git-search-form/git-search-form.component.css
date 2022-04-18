@@ -1,0 +1,40 @@
+.test {
+    /* border: solid red; */
+    margin-top: 3cm;
+    /* background-color: orangered; */
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    border: solid red none;
+    width: 200px;
+    height: 50px;
+    margin-top: 0.5cm;
+    border-radius: 15px;
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+
+}
+
+.form-control {
+    width: 200%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    /* color: brown; */
+}
+
+button{
+
+    color: red;
+    text-align: center;
+    font-size: 25px;
+}
+
