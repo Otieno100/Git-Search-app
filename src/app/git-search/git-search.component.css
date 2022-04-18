@@ -1,0 +1,18 @@
+/* .nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+} */
+
+p{
+    color: aliceblue;
+    /* border: solid red; */
+}
+.repo{
+border: solid red;
+/* margin-left: 2cm; */
+font-family: 'Times New Roman', Times, serif;
+background-color: whitesmoke;
+font-size: 20px;
+
+}

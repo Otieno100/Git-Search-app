@@ -1,0 +1,9 @@
+<!-- <app-navbar class="nav"></app-navbar> -->
+<img src={{user.imageSource}} alt="">
+<p>{{user.gitName}}</p>
+<p>{{user.obtainInfo|date}}</p>
+<p>{{user.location}}</p>
+<p>{{user.repository}}</p>
+<app-repositoris [repoName]="receivedUserInput"  class="repo"></app-repositoris>
+
+
